@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clap X - Getting Started</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico" />
+    <style>
+        /* Define the colors for your theme */
+        :root {
+            --primary-color: #f53232; /* red */
+            --secondary-color: #f88cc2; /* pink */
+            --accent-color: #000000; /* black */
+            --background-color: #ffffff; /* white */
+        }
+
+        /* Style the body element */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--primary-color);
+            padding: 10px;
+        }
+
+        /* Style the logo */
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Style the navigation links */
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 10px;
+        }
+
+        .nav-links a {
+            color: var(--background-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Change the color of the active link */
+        .nav-links a.active {
+            color: var(--secondary-color);
+        }
+
+        /* Change the color of the links on hover */
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Style the main content */
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+
+        /* Style the headline */
+        .headline {
+            font-size: 36px;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        /* Style the subheadline */
+        .subheadline {
+            font-size: 24px;
+            color: var(--secondary-color);
+            text-align: center;
+        }
+
+        /* Style the call to action button */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* Change the color of the button on hover */
+        .cta-button:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Create the navigation bar -->
+    <div class="navbar">
+        <!-- Add your logo image -->
+        <img src="logo.png" alt="Your App Logo" class="logo">
+        <!-- Create the navigation links -->
+        <ul class="nav-links">
+	    <li><a href="site.html">Home</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="gettingstarted.html">Getting Started</a></li>
+        </ul>
+    </div>
+    <!-- Create the main content -->
+    <div class="main">
+        <!-- Add your headline -->
+        <h1>Getting Started</h1>
+        <br>
+        <h3>What is Clap X?</h3>
+        <article>Clap X is a free and open source crosshair app created to </article>
+        <article>users to customize their gaming experience with pre-installed</article>
+        <article>or their own custom crosshairs</article>
+        <br>
+        <h3>Why Clap X?</h3>
+        <article>Most crosshair applications aren't free. The ones that are free</article>
+        <article>either are low quality or lack the ability to use your own </article>
+        <article>crosshairs and only allow pre-installed crosshairs.</article>
+        <br>
+        <h3>Who made Clap X?</h3>
+        <article>I am a Forntite Youtuber and I enjoy programming in my</article>
+        <article>freetime, and figured this would be a good way to practice.</article>
+        <article>If you like Clap X or have ideas for it, here is my channel link</article>
+        <article>https://www.youtube.com/@clapbxt</article>
+        <br>
+        <h3>How to use Clap X?</h3>
+        <article>After either running the installer of un-zipping the zip file, launch Clap X.</article>
+        <article>The first time you run Clap X you will see this dialog</article>
+        <br>
+        <img src="first_time.png" alt="Dialog" class="picture">
+        <br>
+        <article>If you do not see this image, press F5 to open it. This dialog</article>
+        <article>is the user manual for Clap X. If you ever forget how to use Clap X,</article>
+        <article>press F5 to view it and relearn. If you check the box at the bottom, it will</article>
+        <article>not open anymore unless you press F5. After you read and close this dialog, </article>
+        <article>you will be greeted with the crosshair selector. It looks like this</article>
+        <br>
+        <img src="selector.png" alt="Dialog" class="picture">
+        <br>
+        <article>This allows you to choose your crosshair with the dropdown. There are 3 pre-installed,</article>
+        <article>but if you wish to use your own, press 'Open Folder' and paste your image in.</article>
+        <article>Please note that the image must be a *.png, must be 30x30, and must have a transparent</article>
+        <article>background.</article>
+        <br>
+        <h3>It isn't working!</h3>
+        <br>
+        <article>If you are having difficulty, I apologize. As I am a single person, it is difficult to</article>
+        <article>find all the bugs. However, I have a few fixes that may help.</article>
+        <article>If you are playing a fullscreen game, set it to windowed or windowed fullscreen.</article>
+        <article>I have only tested this on Windows 10 and 11, so if you are on a different OS, it may be the problem.</article>
+        <article>If these don't fix it, try uninstalling Clap X and re-installing it.</article>
+
+    </div>
+</body>
+</html>
